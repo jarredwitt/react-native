@@ -264,7 +264,7 @@ public class ReactScrollView extends ScrollView implements ReactClippingViewGrou
   public void fling(int velocityY) {
     if (mScroller != null) {
       // FB SCROLLVIEW CHANGE
-velocityY = velocityY * -1;
+velocit
       // We provide our own version of fling that uses a different call to the standard OverScroller
       // which takes into account the possibility of adding new content while the ScrollView is
       // animating. Because we give essentially no max Y for the fling, the fling will continue as long
